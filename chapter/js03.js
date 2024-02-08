@@ -91,5 +91,7 @@ function showGames() {
 
         // Inserts the content before closing element's closing tag
         tableCell.insertAdjacentHTML("beforeEnd", gameInfo)
+        //OR 
+        // tableCell.innerHTML += gameInfo;
     }
 }
